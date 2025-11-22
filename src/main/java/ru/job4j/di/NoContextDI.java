@@ -9,6 +9,7 @@ public class NoContextDI {
         StartUI ui = new StartUI(store);
         ui.add("Petr Arsentev");
         ui.add("Ivan ivanov");
+        ui.add("Ivan Invanov");
         ui.print();
     }
 }
