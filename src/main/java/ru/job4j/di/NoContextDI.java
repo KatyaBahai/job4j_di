@@ -7,10 +7,10 @@ public class NoContextDI {
     public static void main(String[] args) {
         Store store = new Store();
         StartUI ui = new StartUI(store);
-        ui.add("Petr Arsentev");
+        ui.add("Petr Arentev");
         ui.add("Arsentev Petr");
         ui.add("Ivan ivanov");
-        ui.add("Ivan Invanov");
+        ui.add("Iva Invanov");
         ui.print();
     }
 }
